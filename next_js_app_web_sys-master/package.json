@@ -9,8 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@material-ui/core": "^4.12.4",
-    "@material-ui/icons": "^4.11.3",
+    
+    "@mui/icons-material": "^5.15.18",
+    "@mui/material": "^5.15.18",
     "axios": "^1.7.2",
     "formik": "^2.4.6",
     "next": "14.2.3",
