@@ -2,7 +2,8 @@ import React from "react";
 import useSWR from 'swr';
 import axios from 'axios';
 import Main from "@/layout/mainLayout";
-import { Container, Typography } from '@material-ui/core';
+import { Container, Typography } from '@mui/material';
+import DeleteIcon from '@mui/icons-material/Delete'; 
 
 const fetcher = (url: string) => axios.get(url).then(res => res.data);
 
