@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    
     "@mui/icons-material": "^5.15.18",
     "@mui/material": "^5.15.18",
     "axios": "^1.7.2",
